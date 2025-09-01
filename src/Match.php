@@ -38,4 +38,5 @@ class Match
         // 这里使用简单的规则，只判断户口本号码长度是否在一定范围内
         return strlen($householdRegister) >= 6 && strlen($householdRegister) <= 20;
     }
+
 }
