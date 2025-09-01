@@ -2,7 +2,7 @@
 
 namespace Musickr\Match;
 
-class Match
+class PregMatch
 {
     public static function ValidateChineseIDCard($idCard) {
         $pattern = '/^(1[1-5]|2[1-3])\d{4}(19|20)\d{2}(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])\d{3}(\d|X)$/i';
